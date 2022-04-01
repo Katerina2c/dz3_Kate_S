@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    background: #FFFFFF;
+    font-family: 'Kodchasan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);;
+}
+
+.container {
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px ;
+    margin-bottom: 31px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+  
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    margin: 21px;
+}
+
+.first-block {
+    min-height: 100vh;
+    background-image: url(../imgs/Background.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+h1 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+    max-width: 670px;
+    margin-bottom: 100px;
+    }
+
+.buy {
+    background-color: #0B0B0B;
+    text-align: center;
+    padding: 18px 50px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    border: none;
+
+    }
+
+.learn {
+    background-color: rgba(205, 214, 219, 0);
+    border: 1px solid black;
+    text-align: center;
+    padding: 18px 50px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    }
+
+.first-text {
+    margin: 162px 0px 0px 78px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-img {
+    margin: 124px 10px 0px 55px;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 227px;
+    margin-bottom: 130px;
+}
+
+.second-block h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.shops {
+    max-width: 1146px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-block {
+    display: flex;
+}
+
+.third-block h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.learn-more {
+    background-color: #E68311;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    padding: 18px 50px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    border: none;
+}
+
+.text-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fourth-block {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+.text-fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.fourth-block h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.our-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.our-product h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    color: black;
+    margin-bottom: 50px;
+
+}
+
+.our-product a {
+    color:  #E58211;
+}
+
+.two-honeys {
+    display: flex;
+    margin-bottom: 130px;
+
+}
+.eucaluptus {
+    background-color: rgba(229, 130, 17, 0.07);
+    max-width: 558px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 30px 30px;
+}
+
+.basswood {
+        background-color: rgba(229, 130, 17, 0.07);
+        max-width: 558px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 40px 30px 30px;
+
+}
+
+.fifth-block {
+    margin-left: 227px;
+    margin-right: 227px;
+}
+
+.eucaluptus p {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.eucaluptus h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #0B0B0B;
+}
+.basswood p {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  
+}
+.basswood h2 {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #0B0B0B;
+}
+
+.buy-now {
+    background-color: rgba(205, 214, 219, 0);
+    border: 1px solid rgba(229, 130, 17, 1);
+    text-align: center;
+    padding: 10px 30px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(229, 130, 17, 1);
+}
+
+.text-eucaluptus {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.text-basswood {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+footer {
+    background-image: url(../imgs/footer.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: contain;
+    flex-direction: row;
+    max-height: 137px;
+
+}
+
+footer p {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    max-width: 269px;
+    margin-left: 50px;
+    margin-right: 88px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    min-width: auto;
+}
+
+.logo-text {
+    display: contents;
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 200px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
